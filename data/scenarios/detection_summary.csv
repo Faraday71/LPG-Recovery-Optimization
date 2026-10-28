@@ -1,0 +1,7 @@
+Scenario,Alarms raised,Expected,Unexpected alarms,Detected after (min),Fault size at detection
+S0_healthy,none,none,none,,
+S1_compressor_wear,JI-101 PERF,JI-101 PERF,none,58.0,efficiency 74.0% (from 75%)
+S2_aircooler_fouling,JI-102 PERF,JI-102 PERF,none,41.0,air-cooler outlet 46.1 C (from 45)
+S3_chiller_capacity,TT-102 DEV,TT-102 DEV,none,30.0,chiller outlet 17.0 C (setpoint 15)
+S4_pt101_drift,PT-101 SUSPECT,PT-101 SUSPECT,none,71.0,PT-101 reading +0.59 bar high
+S5_unsafe_move,"FEAS-ADV, FEAS-HI","FEAS-ADV, FEAS-HI",none,,"warning 28 min before the deethanizer fails (advisory), 14 min (high alarm)"
