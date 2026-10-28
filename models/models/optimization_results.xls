@@ -1,6 +1,0 @@
-LPG target (kg/h),Optimum T (C),Optimum P (bar),Optimum SEC (kWh fuel/kg),Conventional T (C),Conventional SEC (kWh fuel/kg),Fuel saving,kg CO2 per kg LPG (optimum)
-40,16.25,15.0,2.202,38.5,4.209,47.7%,0.44
-60,15.0,17.75,1.99,32.75,3.002,33.7%,0.398
-80,15.0,21.375,1.902,27.75,2.441,22.1%,0.38
-100,15.0,25.625,1.839,22.75,2.094,12.2%,0.368
-120,15.0,30.875,1.795,18.0,1.879,4.5%,0.359
