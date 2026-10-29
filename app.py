@@ -46,7 +46,7 @@ st.set_page_config(page_title="LPG Recovery Twin", layout="wide")
 
 st.markdown(f"""
 <style>
-  .block-container {{padding-top: 1.2rem; padding-bottom: 2rem;}}
+  .block-container {{padding-top: 3.5rem; padding-bottom: 2rem;}}
   h1, h2, h3 {{font-weight: 600; color: {INK};}}
   .strip {{display:flex; gap:18px; align-items:center; padding:8px 12px; background:{PANEL};
            border:1px solid #CFCFCF; border-radius:4px; font-size:0.95rem; color:{INK};}}
@@ -59,13 +59,13 @@ st.markdown(f"""
   .card .u {{font-size:0.8rem; color:{MUTED}; font-weight:400;}}
   .card .note {{font-size:0.75rem; color:{MUTED}; margin-top:2px;}}
   .flow {{display:flex; align-items:stretch; gap:0; overflow-x:auto; padding:6px 0 4px 0;}}
-  .unit {{background:{PANEL}; border:1px solid #BDBDBD; border-radius:4px; padding:8px 10px; min-width:128px;}}
+  .unit {{background:{PANEL}; border:1px solid #BDBDBD; border-radius:4px; padding:8px 8px; flex:1 1 0; min-width:0;}}
   .unit .name {{font-weight:600; font-size:0.9rem; color:{INK}; margin-bottom:4px;}}
   .unit .row {{font-size:0.8rem; color:{INK}; display:flex; justify-content:space-between; gap:8px;
                font-variant-numeric: tabular-nums;}}
   .unit .row span:first-child {{color:{MUTED};}}
   .unit .msg {{font-size:0.75rem; font-weight:600; margin-top:5px;}}
-  .arrow {{align-self:center; color:{LINE}; font-size:1.2rem; padding:0 6px;}}
+  .arrow {{align-self:center; color:{LINE}; font-size:1.2rem; padding:0 3px;}}
   .quiet {{color:{MUTED}; font-size:0.85rem;}}
 </style>
 """, unsafe_allow_html=True)
